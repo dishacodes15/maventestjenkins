@@ -7,7 +7,7 @@ pipeline{
                stage('Checkout'){
                steps{
                      git branch: 'main',
-                     url: https://github.com/dishacodes15/maventestjenkins.git
+                     url: 'https://github.com/dishacodes15/maventestjenkins.git'
 }
 }
 stage('Build'){
